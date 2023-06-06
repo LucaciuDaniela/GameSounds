@@ -21,12 +21,6 @@ let sounds = [
   "splash",
 ];
 
-// let arrayOfPathsMusic = [
-//   "./sounds/music/shark.mp3",
-//   "./sounds/music/bus.mp3",
-//   "./sounds/music/happy.mp3",
-//   "./sounds/music/wind.mp3",
-// ];
 
 for (let i = 0; i < allSounds; i++) {
   $(".sound")[i].addEventListener("click", function () {
@@ -130,65 +124,4 @@ $(".sound.wind").on("click", function () {
   }
 });
 
-// $(".sound.shark").on("click", function () {
-//   if (flag == 0) {
-//     if (!music2.paused || !music3.paused || !music4.paused) {
-//       music1.pause();
-//     } else {
-//       music1.play();
-//       flag = 1;
-//     }
-//   } else if (flag == 1) {
-//     music1.pause();
-//     flag = 0;
-//   }
-// });
 
-// audio = new Audio('music.mp3');
-// audio.play();
-
-// if(!audio.paused){ //check audio is playing
-//  audio.pause();
-// }
-
-// $(".sound.bus").on("click", function () {
-//   if (flag == 0) {
-//     if (!music1.paused || !music3.paused || !music4.paused) {
-//       music2.pause();
-//     } else {
-//       music2.play();
-//       flag = 1;
-//     }
-//   } else if (flag == 1) {
-//     music2.pause();
-//     flag = 0;
-//   }
-// });
-
-// $(".sound.happy").on("click", function () {
-//   if (flag == 0) {
-//     if (!music1.paused || !music2.paused || !music4.paused) {
-//       music3.pause();
-//     } else {
-//       music3.play();
-//       flag = 1;
-//     }
-//   } else if (flag == 1) {
-//     music3.pause();
-//     flag = 0;
-//   }
-// });
-
-// $(".sound.wind").on("click", function () {
-//   if (flag == 0) {
-//     if (!music1.paused || !music2.paused || !music3.paused) {
-//       music4.pause();
-//     } else {
-//       music4.play();
-//       flag = 1;
-//     }
-//   } else if (flag == 1) {
-//     music4.pause();
-//     flag = 0;
-//   }
-// });
