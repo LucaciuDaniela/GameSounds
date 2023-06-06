@@ -1,0 +1,165 @@
+body {
+    font-family: 'Courgette', cursive;
+    background-image: url(./images/b56682730f8b427b8055.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 100px;
+    font-size: 4rem;
+    color: #545B77;
+    text-shadow: 4px 0 #99627A;
+}
+
+.button-animals {
+    background-image: url(./images/animals.png);
+    background-size: cover;
+}
+
+.button-sounds {
+    background-image: url(./images/sounds.png);
+    background-size: cover;
+}
+
+.button-music {
+    background-image: url(./images/music.png);
+    background-size: cover;
+}
+
+.choose {
+    outline: none;
+    border: 10px solid #404B69;
+    border-radius: 15px;
+    display: inline-block;
+    width: 250px;
+    height: 210px;
+    margin: 10px;
+  }
+
+  footer {
+    margin-top: 10%;
+  }
+
+.animals {
+    width: 70%;
+    margin: auto;
+}
+
+.animal {
+    outline: none;
+    border: 10px solid #404B69;
+    border-radius: 15px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.bumblebee {
+    background-image: url(./images/animals/bumble-bee.png);
+    background-size: 100% 100%;
+}
+.cat {
+    background-image: url(./images/animals/cat.png);
+    background-size: 100% 100%;
+}
+.cock {
+    background-image: url(./images/animals/cock.png);
+    background-size: 100% 100%;
+}
+.cow {
+    background-image: url(./images/animals/cow.png);
+    background-size: 100% 100%;
+}
+.dog {
+    background-image: url(./images/animals/dog.png);
+    background-size: 100% 100%;
+}
+.goat {
+    background-image: url(./images/animals/goat.png);
+    background-size: 100% 100%;
+}
+.horse {
+    background-image: url(./images/animals/horse.png);
+    background-size: 100% 100%;
+}
+.monkey {
+    background-image: url(./images/animals/monkey.png);
+    background-size: 100% 100%;
+}
+
+.sounds {
+    width: 70%;
+    margin: auto;
+}
+
+.sound {
+    outline: none;
+    border: 10px solid #404B69;
+    border-radius: 15px;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.dj {
+    background-image: url(./images/sounds/dj.png);
+    background-size: 100% 100%;
+}
+.giggle {
+    background-image: url(./images/sounds/giggle.png);
+    background-size: 100% 100%;
+}
+.kiss {
+    background-image: url(./images/sounds/kiss.png);
+    background-size: 100% 100%;
+}
+.motorcycle {
+    background-image: url(./images/sounds/motorcycle.png);
+    background-size: 100% 100%;
+}
+.no-no {
+    background-image: url(./images/sounds/no.png);
+    background-size: 100% 100%;
+}
+.police {
+    background-image: url(./images/sounds/police.png);
+    background-size: 100% 100%;
+}
+.robot {
+    background-image: url(./images/sounds/robot.png);
+    background-size: 100% 100%;
+}
+.splash {
+    background-image: url(./images/sounds/splash.png);
+    background-size: 100% 100%;
+}
+
+.music {
+    width: 70%;
+    margin: auto;
+}
+.bus {
+    background-image: url(./images/music/bus.png);
+    background-size: 100% 100%;
+}
+.shark {
+    background-image: url(./images/music/baby-shark.png);
+    background-size: 100% 100%;
+}
+.happy {
+    background-image: url(./images/music/clap.png);
+    background-size: 100% 100%;
+}
+.wind {
+    background-image: url(./images/music/frunzele.png);
+    background-size: 100% 100%;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
